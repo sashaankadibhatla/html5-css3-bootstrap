@@ -66,14 +66,7 @@
 {
 	text-align:center;
 }
-.form2
-{
-	width:40% !important;
-}
-.form3
-{
-	right:108px;
-}
+
 .form4
 {
 	width:70% !important;
@@ -122,6 +115,10 @@ display: inline !important;
 .footer2
 {
 	background-color: #DEF0EF;
+}
+.down1
+{
+	overflow-x: hidden;
 }
 body
 {

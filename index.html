@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="Sashaank Adibhatla" content="CEO of A9Software">
-    <meta name="sai-puneeth" content="President of A9Software">
+    <meta name="Sai Puneeth" content="President of A9Software">
     <meta name="Ramakrishna Reddy" content="Senior President of A9Software">
     <meta name="Siddhu Buddharaju" content="Director of A9Software">
     <meta name="Vijaya Rama  Residency" content="Headquarters of A9Software">
@@ -20,10 +20,10 @@
     <header class="top">
       <div class="container-fluid">
         <div class="row">
-          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+          <div class="col-lg-3 col-md-4 col-sm-6 col-xs-6">
             <img src="img/img1.png" class=" image1 img-responsive" alt="logo">
           </div>
-          <div class="col-lg-8 col-lg-offset-1  col-md-7 col-md-offset-1  col-sm-6 col-xs-12">
+          <div class="col-lg-8 col-lg-offset-1  col-md-7 col-md-offset-1  col-sm-6 col-xs-6">
             <nav class="navbar navbar-default  nav1 list2">
               <div class="navbar-header">
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
@@ -32,7 +32,7 @@
                 <span class="icon-bar"></span>                        
                 </button>
               </div>
-              <div class="collapse navbar-collapse" id="myNavbar">
+              <div class="collapse navbar-collapse down1" id="myNavbar">
                 <ul class="nav navbar-nav nav2">
                   <li><a href="#">HOME</a></li>
                   <li class="dropdown list1">
@@ -65,9 +65,9 @@
                   <li>
                     <form class="navbar-form" role="search">
                       <div class="input-group add-on form1">
-                        <input class="form-control form2" placeholder="Search" name="srch-term" id="srch-term" type="text">
+                        <input class="form-control" placeholder="Search" name="srch-term" id="srch-term" type="text">
                         <div class="input-group-btn">
-                          <button class="btn btn-default form3" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                          <button class="btn btn-default" type="submit"><i class="glyphicon glyphicon-search"></i></button>
                         </div>
                       </div>
                     </form>
@@ -112,7 +112,7 @@
       </div>
     </div>
     <div class="container-fluid">
-      <h1 class="head1">OUR OFFICES </h1>
+      <h1 class="head1">OUR OFFICES</h1><br>
       <div id="myCarousel" class="carousel slide side1" data-ride="carousel">
         <!-- Indicators -->
         <ol class="carousel-indicators">
@@ -166,11 +166,11 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <h2 class="head1">PROFITS IN MILLIONS</h2>
+          <h2 class="head1">PROFITS IN MILLIONS</h2><br>
           <img src="img/img6.jpeg" class="img-responsive" alt="profits_by_region">
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <article class="para4"><h2 class="head1">OUR PROFITS</h2>
+          <article class="para4"><h2 class="head1">OUR PROFITS</h2><br>
             On behalf the Board of Directors and Management and staff of A9 Software Solutions we thank you for your continued support! A9 Software is proud to report that we had another amazing year achieving annual revenue of $10 billion.<br>Your cooperation continues to actively support the solutions we serve and in 2016 we donated back over $156,000 back to deserving clubs and non profit organizations.<br>We are pleased to announce that $1,436,528 billion is allocated in Equity and Cash Back to the members'accounts.<br>Equity Cheques will be available for pick up in the Forum Mall on Friday, September 8th and Monday, Septemeber 11th from 9:00 am to 9:00 pm located by the Baskin Robins. All cheques not picked up will be mailed out within the following month. Due to the high volume of cheques, please allow a minimum of 3 to 4 weeks for your cheque to be mailed out.<br>
             Once again we thank you for supporting A9Software!
           </article>
@@ -180,32 +180,33 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <h1 class="head1">APPLICATION </h1>
-          <form class="form5">
+          <h1 class="head1">APPLICATION </h1><br>
+          <form class="form5" id ="application-form" name="application" onsubmit="return applicationForm()">
             <br>
             <div class="form-group">
-              <input type="text" class="form-control form4"  placeholder="Name">
+              <input  id ="name" type="text" class="form-control form4"  placeholder="Name" name="Name" >
             </div>
             <div class="form-group form6">
-              <input type="text" class="form-control form4"  placeholder="Email">
+              <input id ="email" type="text" class="form-control form4"  placeholder="Email" name="Email">
             </div>
             <div class="form-group form6">
-              <input type="text" class="form-control form4"  placeholder="Phone-num">
+              <input  id="phone" type="text" class="form-control form4"  placeholder="Phone_num" name="Phone_num">
             </div>
             <div class="form-group form6">
-              <input type="text" class="form-control form4"  placeholder="Date Of Birth">
+              <input id="dob" type="text" class="form-control form4"  placeholder="Date_Of_Birth" name="Date_Of_Birth">
             </div>
             <div class="form-group form6">
-              <input type="text" class="form-control form4"  placeholder="Address">
+              <input id="addr" type="text" class="form-control form4"  placeholder="Address" name="Address">
             </div>
             <div class="form-group form6">
-              <input type="text" class="form-control form4"  placeholder="Nationality">
+              <input  id="nat" type="text" class="form-control form4"  placeholder="Nationality" name="Nationality">
             </div>
             <button type="submit" class="btn btn-warning">Submit</button>
           </form>
+          <script type="text/javascript" src="js/validation_min.js" ></script>
         </div>
         <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
-          <h1 class="head1">OUR INSPIRATION</h1>
+          <h1 class="head1">OUR INSPIRATION</h1><br>
           <div class="embed-responsive embed-responsive-16by9">
             <iframe src="https://www.youtube.com/embed/sOjeQV5pHh4"  allowfullscreen></iframe>
           </div>
@@ -215,7 +216,7 @@
     <div class="container-fluid">
       <div class="row">
         <h1 class="head1">ABOUT US</h1>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
           <h3 class="head1"> OUR HEADQUARTERS</h3><br> 
           <div class="embed-responsive embed-responsive-16by9">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d950.0013417986117!2d83.29930682914473!3d17.744386276544464!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a395cd34bc1a7c5%3A0x1420925752fffac8!2s45-58-70%2C+Kailasapuram%2C+Visakhapatnam%2C+Andhra+Pradesh+530024!5e0!3m2!1sen!2sin!4v1504695337029" width="600" height="450"  style="border:0" allowfullscreen></iframe>
@@ -226,15 +227,15 @@
             More than 150 offices are situated overall world and India is the largest operating unit with 20 offices across its territory.
           </p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <h3 class="head1">WORK LIFE BALANCE</h3>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <h3 class="head1">WORK LIFE BALANCE</h3><br>
           <img src="img/img11.jpg" class="img-responsive image11" alt="work_life_balance">
           <p class="para4">
             Work-Life Balance does not mean an equal balance. Trying to schedule an equal number of hours for each of your various work and personal activities is usually unrewarding and unrealistic. Life is and should be more fluid than that.We should enjoy the work and have fun.All the employee have around 95% satisfaction in their work life balance at A9Software
           </p>
         </div>
-        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-          <h2 class="head1">OUR TEAM</h2>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+          <h2 class="head1">OUR TEAM</h2><br>
           <div id="myCarousel1" class="carousel slide side2" data-ride="carousel">
             <!-- Indicators -->
             <ol class="carousel-indicators">
